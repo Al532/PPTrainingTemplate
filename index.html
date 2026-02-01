@@ -37,16 +37,36 @@
           <code>assets/MP3/</code>
         </article>
         <article class="asset-card">
-          <h3>Drone tones</h3>
-          <p>Long-form drone notes for tuning, relative pitch work, and context training.</p>
-          <code>assets/Drones/</code>
-        </article>
-        <article class="asset-card">
           <h3>Feedback audio</h3>
           <p>Short confirmation cue for correct answers or progress milestones.</p>
           <code>assets/feedback.mp3</code>
         </article>
       </div>
+    </section>
+
+    <section class="panel">
+      <h2>Sample playback</h2>
+      <p class="lead">
+        Play a random instrument sample to preview the library, or trigger the feedback cue.
+      </p>
+      <div class="controls">
+        <button class="primary" type="button" id="play-random">Play random sample</button>
+        <button type="button" id="play-feedback">Play feedback sample</button>
+      </div>
+      <dl class="sample-meta">
+        <div>
+          <dt>Chroma</dt>
+          <dd id="sample-chroma">—</dd>
+        </div>
+        <div>
+          <dt>Midi note</dt>
+          <dd id="sample-midi">—</dd>
+        </div>
+        <div>
+          <dt>Instrument</dt>
+          <dd id="sample-instrument">—</dd>
+        </div>
+      </dl>
     </section>
 
     <section class="panel">
@@ -62,5 +82,7 @@
   <footer>
     <p>Ready to build your own ear training experience.</p>
   </footer>
+
+  <script type="module" src="main.js"></script>
 </body>
 </html>
