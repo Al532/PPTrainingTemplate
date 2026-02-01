@@ -75,7 +75,7 @@ main {
 
 .asset-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: 1fr;
   gap: 16px;
   margin-top: 16px;
 }
@@ -135,7 +135,7 @@ button.primary {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 16px;
-  margin: 0;
+  margin: 16px 0 0;
 }
 
 .sample-meta div {
